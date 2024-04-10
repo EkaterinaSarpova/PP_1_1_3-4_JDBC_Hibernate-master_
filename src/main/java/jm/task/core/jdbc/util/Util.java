@@ -12,7 +12,7 @@ public class Util {
 
     private static SessionFactory sessionFactory;
 
-    public static SessionFactory getConnection() {
+    public static SessionFactory factory() {
 
         try {
             Configuration configuration = new Configuration()
